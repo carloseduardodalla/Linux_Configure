@@ -1,0 +1,16 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file
+*/
+
+.output_png {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cm-s-ipython span.cm-comment { color: #118508; font-style: normal; }
+.cm-s-ipython span.cm-number { color: #35a4a1; }
