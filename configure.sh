@@ -11,6 +11,9 @@
 # Install VSCODE, DROPBOX
   sudo snap install vscode -y &&
   sudo snap install dropbox -y &&
+  
+# Install Preload (faster ubuntu) 
+  sudo apt-get install preload
 
 ## ANACONDA Install
   # Download at https://www.anaconda.com/ and run executable
