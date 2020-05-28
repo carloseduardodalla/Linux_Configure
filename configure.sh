@@ -1,12 +1,22 @@
 #!bin/bash
 
-## Configuration - Linux Ubuntu 18.04
+## Configuration - Linux Ubuntu 20.04
 
-# Install INKSCAPE, TEXSTUDIO, TEXLIVE, OKULAR
-  sudo snap install inkscape -y &&
-  sudo snap install texstudio -y &&
-  sudo apt install texlive-full -y &&
-  sudo snap install okular -y &&
+## INKSCAPE with TexText Integration
+  sudo add-apt-repository ppa:inkscape.dev/stable
+  sudo apt-get update
+  sudo apt-get install inkscape
+  # Download TexText at https://textext.github.io/textext/install/linux.html
+  # Enter Directory TexText
+  python setup.py
+
+## TEXSTUDIO, TEXLIVE, OKULAR
+  sudo add-apt-repository ppa:sunderme/texstudio
+  sudo apt-get update
+  sudo apt-get install texstudio
+  
+  sudo apt install texlive-full
+  sudo snap install okular
 
 # Install VSCODE, DROPBOX
   sudo snap install vscode -y &&
