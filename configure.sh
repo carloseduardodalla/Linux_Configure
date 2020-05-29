@@ -15,14 +15,16 @@
   sudo apt-get update
   sudo apt-get install texstudio
   
+  # Full Packages Texlive - Optional: texlive-basics
   sudo apt install texlive-full
-  sudo snap install okular
+  
+  # Okular Document Viewer
+  sudo apt-get install okular
 
 # Install VSCODE, DROPBOX
-  sudo snap install vscode -y &&
   sudo snap install dropbox -y &&
   
-# Install Preload (faster ubuntu) 
+## Install Preload (faster ubuntu) 
   sudo apt-get install preload
 
 ## ANACONDA Install
