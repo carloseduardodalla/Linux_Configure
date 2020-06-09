@@ -10,7 +10,7 @@
   # Enter Directory TexText
   python setup.py
 
-## TEXSTUDIO, TEXLIVE, OKULAR
+## TEXSTUDIO, TEXLIVE, OKULAR, MENDELEY
   sudo add-apt-repository ppa:sunderme/texstudio
   sudo apt-get update
   sudo apt-get install texstudio
@@ -20,8 +20,12 @@
   
   # Okular Document Viewer
   sudo apt-get install okular
+  
+  # Mendeley Desktop 
+  sudo apt-get update
+  sudo apt-get install mendeleydesktop
 
-# Install VSCODE, DROPBOX
+## Install VSCODE, DROPBOX
   sudo snap install dropbox -y &&
   
 ## Install Preload (faster ubuntu) 
