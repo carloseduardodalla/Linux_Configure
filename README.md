@@ -27,7 +27,7 @@ $ sudo apt-get install lammps-daily
 
 ### Scientific Writing 
 
-|[TeXStudio](https://www.texstudio.org/)|<img src=https://www.texstudio.org/images/texstudio128x128.png height=50>|
+|[TeXStudio](https://www.texstudio.org/)|<img src=https://i.stack.imgur.com/XVUkl.png height=50>|
 |---|---|
 
 > TeXstudio is an integrated writing environment for creating LaTeX documents. Our goal is to make writing LaTeX as easy and comfortable as possible. Therefore TeXstudio has numerous features like syntax-highlighting, integrated viewer, reference checking and various assistants. 
@@ -45,7 +45,7 @@ $ sudo apt-get install texstudio
 
 ``` $ sudo apt install texlive-full ```
 
-|[Mendeley](https://www.mendeley.com/)|<img src=https://static.mendeley.com/weblet-awareness/images/logo.svg height=50>|
+|[Mendeley](https://www.mendeley.com/)|<img src=https://www.blogs.unicamp.br/socialmente/wp-content/uploads/sites/238/2014/01/logo-mendeley-200x115.png height=50>|
 |---|---|
 
 > Mendeley is a company based in London, UK, which provides products and services for academic researchers. It is most known for its reference manager which is used to manage and share research papers and generate bibliographies for scholarly articles. 
@@ -53,6 +53,18 @@ $ sudo apt-get install texstudio
 ```
 $ sudo apt-get update
 $ sudo apt-get install mendeleydesktop
+```
+
+|[VOSviewer](https://www.vosviewer.com/)|<img src=https://www.cwts.nl/rori/fundinglandscape/fonts/vosviewer-logo.svg height=50>|
+|---|---|
+
+> VOSviewer is a software tool for constructing and visualizing bibliometric networks. These networks may for instance include journals, researchers, or individual publications, and they can be constructed based on citation, bibliographic coupling, co-citation, or co-authorship relations. VOSviewer also offers text mining functionality that can be used to construct and visualize co-occurrence networks of important terms extracted from a body of scientific literature.
+
+> Download VOSviewer at https://www.vosviewer.com/download
+
+```
+$ sudo apt-get install default-jre
+$ java -jar VOSviewer.jar
 ```
 
 |[InkScape](https://inkscape.org/pt-br/)|<img src=https://media.inkscape.org/static/images/inkscape-logo.svg height=50>|
