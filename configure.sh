@@ -42,4 +42,4 @@
   conda install -c conda-forge jupyter_contrib_nbextensions
   
   # Editing Jupyter-Notebook Preferences
-  # Copy custom.css to anaconda3/lib/python3.7/site-packages/notebook/static
+  # Copy custom.css to gedit anaconda3/lib/python3.8/site-packages/notebook/static/custom/custom.css
