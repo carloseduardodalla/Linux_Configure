@@ -4,6 +4,9 @@ Placeholder for custom user CSS
 mainly to be overridden in profile/static/custom/custom.css
 
 This will always be an empty file
+
+.cm-s-ipython span.cm-number { color: #35a4a1;} 
+.cm-s-ipython span.cm-operator {color: #e22929; font-style: normal;}
 */
 
 .output_png {
@@ -12,10 +15,8 @@ This will always be an empty file
     vertical-align: middle;
 }
 
-.cm-s-ipython span.cm-comment { color: #118508; font-style: normal; }
-.cm-s-ipython span.cm-number { color: #35a4a1; }
-.cm-s-ipython span.cm-operator {color: #e22929; font-style: normal; }
-
 *{
-    line-height:10px; // Tweak till happy
+    line-height:22px; // Tweak till happy
 }
+
+.cm-s-ipython span.cm-comment {font-style: normal;}
