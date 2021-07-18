@@ -43,7 +43,9 @@ sudo apt-get install texstudio
 
 > TeX Live is intended to be a straightforward way to get up and running with the TeX document production system. It provides a comprehensive TeX system with binaries for most flavors of Unix, including GNU/Linux, macOS, and also Windows. It includes all the major TeX-related programs, macro packages, and fonts that are free software, including support for many languages around the world. Many operating systems provide it via their own distributions. 
 
-``` sudo apt install texlive-full ```
+``` 
+sudo apt install texlive-full 
+```
 
 |[Mendeley](https://www.mendeley.com/)|<img src=https://www.blogs.unicamp.br/socialmente/wp-content/uploads/sites/238/2014/01/logo-mendeley-200x115.png height=50>|
 |---|---|
@@ -51,8 +53,8 @@ sudo apt-get install texstudio
 > Mendeley is a company based in London, UK, which provides products and services for academic researchers. It is most known for its reference manager which is used to manage and share research papers and generate bibliographies for scholarly articles. 
 
 ```
-$ sudo apt-get update
-$ sudo apt-get install mendeleydesktop
+sudo apt-get update
+sudo apt-get install mendeleydesktop
 ```
 
 |[VOSviewer](https://www.vosviewer.com/)|<img src=https://www.cwts.nl/rori/fundinglandscape/fonts/vosviewer-logo.svg height=50>|
@@ -63,8 +65,8 @@ $ sudo apt-get install mendeleydesktop
 > Download VOSviewer at https://www.vosviewer.com/download
 
 ```
-$ sudo apt-get install default-jre
-$ java -jar VOSviewer.jar
+sudo apt-get install default-jre
+java -jar VOSviewer.jar
 ```
 
 |[InkScape](https://inkscape.org/pt-br/)|<img src=https://media.inkscape.org/static/images/inkscape-logo.svg height=50>|
